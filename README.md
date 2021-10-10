@@ -4,6 +4,7 @@
 ## Description du projet.
 Ce dépôt contient du code pour analyser les données de supervision qualité technique des formations sanitaires du district de santé de YOKO dans la région du centre Cameroon. Le fichier csv est téléchargé de la plateforme du projet PBF. Ces données ont été obtenues de la supervision de 15 formations sanitaires à l'aide d'une grille de supervision. Cette dernière d'une vingtaine de pages, contient des questions (indicateurs au nombre de 197) réparties en 19 catégories. Une copie de cette grille se retrouve dans le repertoire Documentation du dépôt.
 
+Liste des différentes catégories contenues dans la grillede supervision (collecte de données)           
 Indicateurs généraux    
 Business plan trimestriel   
 Partie financière   
@@ -43,4 +44,15 @@ Quelles sont les limites des données (qualité) en terme de données manquantes
 Matplotlib    
 Pandas       
 Numpy      
-Seaborn     
+Seaborn    
+
+### Les fichiers disponibles dans ce dépôt      
+- data/: données extraite de la plateforme dhis2 du projet pbf **'score_qualite_T2_2021.csv'**
+- documentation/: **'Grille_PMA_qualite_PBF.pdf'** et **'Rapport_qualite_final_Q2_2021_DS_YOKO'** respectivement fiche de collecte de données sous forme de check list et le rapport d'évaluation qualité.        
+- images/
+    - Missing_values
+    - Performance_evolution
+    - Ranking
+- pbf_dict_columns.py: fichier python qui contient un dictionnaire avec comme clés les noms actuels des colonnes (indicateurs) et comme valeurs les noms des colonnes désirées plus courts.
+- quality_scorepbf.ipynb: fichier notebook qui contient le code pour l'analyse des données.
+
