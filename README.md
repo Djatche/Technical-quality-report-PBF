@@ -50,11 +50,11 @@ Seaborn
 - data/: données extraite de la plateforme dhis2 du projet pbf **'score_qualite_T2_2021.csv'**
 - documentation/: **'Grille_PMA_qualite_PBF.pdf'** et **'Rapport_qualite_final_Q2_2021_DS_YOKO'** respectivement fiche de collecte de données sous forme de check list et le rapport d'évaluation qualité.        
 - images/:
-    - Missing_values:    
+    - Missing_values:
     **'heatmap_missing_value.png'** qui est un fichier qui repertorie les données manquantes dans un dataframe
-    - Performance_evolution: 
+    - Performance_evolution: *
     **'business_plan.png'** fichier image du graphique représentant l'évolution du score business plan trimestre après trimestre. ON note trois courbes pour les années 2019, 2020 et les 2 premiers trimestre 2021. Toutes les 15 formations sanitaires sont représentées dans le graphique.
-    - Ranking:      
+    - Ranking:
     **'ranking_business_plan'** fichier image du diagramme en barre de performances (scores) de la catégorie "business plan". Les formations sanitaires sont classées dans le graphique par ordre décroissant. Du plus performant au moins. A noter que le score maximal de la catégorie et le score moyen du district pour cette catégorie ont été représenté par une couleur différente dans ce diagramme en barre.
 - **'pbf_dict_columns.py'**: fichier python qui contient un dictionnaire avec comme clés les noms actuels des colonnes (indicateurs) et comme valeurs les noms des colonnes désirées plus courts.
 - **'quality_scorepbf.ipynb'**: fichier notebook qui contient le code pour l'analyse des données.
