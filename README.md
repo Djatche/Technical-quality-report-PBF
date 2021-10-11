@@ -4,7 +4,7 @@
 ## Description du projet.
 Ce dépôt contient du code pour analyser les données de supervision qualité technique des formations sanitaires du district de santé de YOKO dans la région du centre Cameroon. Le fichier csv est téléchargé de la plateforme du projet PBF. Ces données ont été obtenues de la supervision de 15 formations sanitaires à l'aide d'une grille de supervision. Cette dernière d'une vingtaine de pages, contient des questions (indicateurs) au nombre de 197 réparties en 19 catégories. Une copie de cette grille se retrouve dans le repertoire Documentation du dépôt.
 
-Liste des différentes catégories contenues dans la grillede supervision (collecte de données):                
+Liste des différentes catégories contenues dans la grille de supervision (collecte de données):                
 Indicateurs généraux    
 Business plan trimestriel   
 Partie financière   
